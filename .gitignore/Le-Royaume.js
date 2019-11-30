@@ -303,7 +303,6 @@ client.on('guildMemberAdd', function (member) {
         :boom: N'hésites pas à inviter tes ami(e)s !`)
         .setFooter(`Tu es le ${member.guild.memberCount}ème membre du serveur!`)
         member.guild.channels.get(process.env.GENERAL).send(embed)
-        }
 })
 
 client.on('message', function (message) {
